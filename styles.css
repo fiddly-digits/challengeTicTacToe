@@ -7,7 +7,26 @@ body {
     background: #d5e1ef;
     height: 100%;
     margin: 0px;
-    padding: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+}
+
+.grid {
+    border: solid 1px rgb(128,128,128, .3);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 302px;
+}
+
+.grid div {
+    color: rgb(211,211,211);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    height: 100px;
+    outline: solid 1px rgb(128,128,128, .3);
+    outline-offset: -3px;
+    text-align: center;
+    width: 100px;
 }
